@@ -1,0 +1,8 @@
+kata = input()
+terbalik = ''.join(reversed(kata))
+ 
+if(kata == terbalik):
+    print('Palindrom')
+else:
+    print('Bukan palindrom')
+    
